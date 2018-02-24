@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	max-width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.subject-name {
+	font-size: 1.8em;
+	text-align: right;
+	color: #71a4a4;
+}
+
+.name-description {
+	font-size: 1em;
+	text-align: right;
+}
+
+.box {
+	min-height: 100px;
+}
+
+.blue {
+	background-color: #2A457A;
+	color: #efefef;
+}
+
+.small-bio {
+	background-color: #099DD9;
+}
+
+.big-pic {
+	background-color: white;
+	min-width: 100%;
+	max-height: 200px;
+/*Find a way to cut it so its about 200px in height 
+*/	
+}
+
+.projects {
+	background-color: white;
+}
+
+.name {
+	background-color: white;
+}
+
+.subject-name {
+	width: 100%;
+}
