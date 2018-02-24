@@ -1,3 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	max-width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	
+/*Find a way to cut it so its about 200px in height 
+*/	
+}
+
+.fillheight {
+    min-height: 100%;
+    width: auto;
+/* Not working to fix height to the 200px of the box*/
+}
+
+.subject-name {
+	font-size: 1.8em;
+	text-align: right;
+	color: black;
+	vertical-align: middle;
+}
+
+.name-description {
+	font-size: 1em;
+	text-align: right;
+	color: #71a4a4;
+	vertical-align: middle;
+	font-style: italic;
+}
+
+.box {
+	min-height: 150px;
+	max-height: 200px;
+	background-color: white;
+	width: 100%;
+}
 
 .container {
 	display: flex;
@@ -6,25 +56,28 @@
 	justify-content: center;
 }
 
-.box {
-	width: 100%;
+.first-proj {
+	position: relative;
+    text-align: center;
+    color: white;
 }
 
-.name-description {
-	font-size: 1em;
-	vertical-align: middle;
-	font-style: italic;
-}
-
-.subject-name {
-	vertical-align: middle;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media screen and (min-width: 420px) {
-	.small-bio, .big-pic {
+	.small-bio, {
 		color: blue;
 		width: 50%;
 		text-align: center;
+	}
+	
+	.big-pic {
+	
 	}
 
 	.name {
@@ -33,22 +86,17 @@
 		text-align: center;
 	}
 	
-	.projects {
+	.logo {
 		width: 33%;
 		vertical-align: middle;
 	}
 	
 	.subject-name {
 		font-size: 5vw;
-		text-align: right;
-		color: #71a4a4;
-		vertical-align: middle;
 	}
 
 	.name-description {
 		font-size: 1em;
-		text-align: right;
-		font-style: italic;
 	}
 }
 
@@ -58,7 +106,7 @@
 		width: 50%;
 	}
 	
-	.projects {
+	.logo {
 		width: 33%;
 	}
 	
@@ -69,15 +117,10 @@
 	
 	.subject-name {
 		font-size: 5vw;
-		text-align: right;
-		color: #71a4a4;
-		vertical-align: middle;
 	}
 
 	.name-description {
 		font-size: 1em;
-		text-align: right;
-		font-style: italic;
 	}
 }
 
@@ -94,6 +137,5 @@
 	
 	.name-description {
 		font-size: 20px;
-		font-style: italic;
 	}
 }
