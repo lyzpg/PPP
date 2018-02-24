@@ -1,0 +1,99 @@
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.box {
+	width: 100%;
+}
+
+.name-description {
+	font-size: 1em;
+	vertical-align: middle;
+	font-style: italic;
+}
+
+.subject-name {
+	vertical-align: middle;
+}
+
+@media screen and (min-width: 420px) {
+	.small-bio, .big-pic {
+		color: blue;
+		width: 50%;
+		text-align: center;
+	}
+
+	.name {
+		color: black;
+		width: 67%;
+		text-align: center;
+	}
+	
+	.projects {
+		width: 33%;
+		vertical-align: middle;
+	}
+	
+	.subject-name {
+		font-size: 5vw;
+		text-align: right;
+		color: #71a4a4;
+		vertical-align: middle;
+	}
+
+	.name-description {
+		font-size: 1em;
+		text-align: right;
+		font-style: italic;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	.small-bio, .big-pic {
+		color: blue;
+		width: 50%;
+	}
+	
+	.projects {
+		width: 33%;
+	}
+	
+	.name {
+		color: black;
+		width: 67%;
+	}
+	
+	.subject-name {
+		font-size: 5vw;
+		text-align: right;
+		color: #71a4a4;
+		vertical-align: middle;
+	}
+
+	.name-description {
+		font-size: 1em;
+		text-align: right;
+		font-style: italic;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	.container {
+		width: 801px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.subject-name {
+		font-size: 40px;
+	}
+	
+	.name-description {
+		font-size: 20px;
+		font-style: italic;
+	}
+}
